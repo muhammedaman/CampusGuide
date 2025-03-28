@@ -1,0 +1,938 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "How are you",
+          "Is anyone there",
+          "Hello",
+          "Good day",
+          "What's up",
+          "heyy",
+          "whatsup",
+          "??? ??? ??"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you again!",
+          "Hi there, how can I help?",
+          "Hi! What’s up? Let me know how I can help!",
+          "Greetings! Feel free to ask me anything."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "cya",
+          "see you",
+          "bye bye",
+          "See you later",
+          "Goodbye",
+          "I am Leaving",
+          "Bye",
+          "Have a Good day",
+          "talk to you later",
+          "ttyl",
+          "i got to go",
+          "gtg"
+        ],
+        "responses": [
+          "Sad to see you go :(",
+          "Talk to you later",
+          "Goodbye!",
+          "Come back soon"
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": [
+          "what is the name of your developers",
+          "what is the name of your creators",
+          "what is the name of the developers",
+          "what is the name of the creators",
+          "who created you",
+          "your developers",
+          "your creators",
+          "who are your developers",
+          "developers" 
+        ],
+        "responses": [
+          "A couple of students from the CSE Dept of the KMCT College of Engineering developed me! :)"
+        ]
+      },
+      {
+        "tag": "college",
+        "patterns": [
+          "what is the name of the college",
+          "whats the college called",
+          "college name",
+          "which college" 
+        ],
+        "responses": [
+          "KMCT College of Engineering"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "name",
+          "your name",
+          "do you have a name",
+          "what are you called",
+          "what is your name",
+          "what should I call you",
+          "whats your name?",
+          "what are you",
+          "who are you",
+          "who is this",
+          "what am i chatting to",
+          "who am i taking to",
+          "what are you",
+          "what is your ability",
+          "what is your purpose",
+          "why are you made"
+        ],
+        "responses": [
+          "You can call me your friendly chatbot for the KMCT College of Engineering.",
+          "I am a Chatbot for the Engineering College of KMCT.",
+          "You can consider me as a tool to help get your way through college.",
+          "I'm here to help you learn about KMCT, whether you're a prospective student or just curious. Ask away! 😉",
+          "This is a chatbot for KMCT. I can answer your questions about admissions, courses, facilities, and much more. 😊"
+        ]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": [
+            "how are you",
+            "how do you feel",
+            "how are things",
+            "what's up with you",
+            "how are you doing",
+            "how is it going",
+            "how have you been",
+            "how are things going",
+            "what's your mood"
+        ],
+        "responses": [
+            "I'm just a chatbot, but I'm functioning at 100% efficiency! How about you? 😊",
+            "I'm doing great! Thank you for asking. How can I assist you today?",
+            "All systems are running smoothly! How can I help you?",
+            "I'm feeling as good as a chatbot can feel! Let me know if there's anything you need.",
+            "I'm here and ready to assist! What's on your mind today?",
+            "I'm just a virtual assistant, but I'm always here to help you. How about you?"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+            "help",
+            "i need help",
+            "can you help me",
+            "assist me",
+            "how can you assist",
+            "i need assistance",
+            "can you guide me",
+            "help me please"
+        ],
+        "responses": [
+            "Of course! I'm here to assist you with any questions about KMCT College of Engineering.",
+            "Sure! Let me know what you need help with, and I'll do my best to guide you.",
+            "I can assist you with details about courses, admissions, facilities, and more. What do you need help with?",
+            "I'm here to provide information about KMCT. How can I assist you today?",
+            "Just let me know your question, and I'll do my best to help you."
+        ]
+      },    
+      {
+        "tag": "hours",
+        "patterns": [
+          "timing of college",
+          "what is college timing",
+          "working days",
+          "when are you guys open",
+          "what are your hours",
+          "hours of operation",
+          "when is the college open",
+          "college timing",
+          "what about college timing",
+          "is college open on saturday",
+          "tell something about college timing",
+          "what is the college hours",
+          "when should i come to college",
+          "when should i attend college",
+          "what is my college time",
+          "college timing",
+          "timing college"
+        ],
+        "responses": [
+          "College is open 9am-4pm Monday-Saturday (except on 2nd and 3rd saturdays)"
+        ]
+      },
+      {
+        "tag": "number",
+        "patterns": [
+          "more info",
+          "contact info",
+          "how to contact college",
+          "college telephone number",
+          "college number",
+          "What is your contact no",
+          "Contact number?",
+          "how to call you",
+          "College phone no?",
+          "how can i contact you",
+          "Can i get your phone number",
+          "how can i call you",
+          "phone number",
+          "phone no",
+          "call"
+        ],
+        "responses": [
+          "You can contact the college through these numbers: +91 90485 66888,+91 9745726888 or you can mail us at mail@kmct.edu.in"
+        ]
+        
+      },
+      {
+        "tag": "course",
+        "patterns": [
+          "list of courses",
+          "list of courses offered",
+          "list of courses offered in",
+          "what are the courses offered in your college?",
+          "courses?",
+          "courses offered",
+          "courses offered in KMCTCE",
+          "courses you offer",
+          "branches?",
+          "courses available at universtiy?",
+          "branches available at your college?",
+          "what are the courses in college?",
+          "what are branches in this college?",
+          "what are courses in KMCT?",
+          "branches available in the college?",
+          "can you tell me the courses available in the college?",
+          "can you tell me the branches available in university?",
+          "computer engineering?",
+          "computer",
+          "Computer engineering?",
+          "it",
+          "IT",
+          "Information Technology",
+          "AI/Ml",
+          "Mechanical engineering",
+          "Chemical engineering",
+          "Civil engineering"
+        ],
+        "responses": [
+          "Our university offers Information Technology, Computer Science & Engineering, Mechanical engineering, Electrical & Electronics Engineering, Civil engineering and Applied Instrumentation, Electronics & Communication Engineering"
+        ]
+      },
+      {
+        
+        "tag": "fees",
+        "patterns": [
+          "information about fee",
+          "information on fee",
+          "tell me the fee",
+          "college fee",
+          "fee per semester",
+          "what is the fee of each semester",
+          "what is the fees of each year",
+          "what is fee",
+          "what is the fees",
+          "how much is the fees",
+          "fees for first year",
+          "fees",
+          "about the fees",
+          "tell me something about the fees",
+          "What is the fees of hostel",
+          "how much is the fees",
+          "hostel fees"
+        ],
+        "responses": [
+          "Our fee structure includes a tuition fee of ₹1,50,000 per annum. Additional costs include a one-time admission fee of ₹10,000 and other administrative fees totaling approximately ₹15,000. We offer scholarships based on merit and financial need. For detailed information on payment options and financial aid, please contact our finance department."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "where is the college located",
+          "college is located at",
+          "where is college",
+          "where is college located",
+          "address of college",
+          "how to reach college",
+          "college location",
+          "college address",
+          "wheres the college",
+          "how can I reach college",
+          "whats is the college address",
+          "what is the address of college",
+          "address",
+          "location"
+        ],
+        "responses": [
+          "This is the location of the college: https://maps.app.goo.gl/VGGeA9xiHt9Bd9eJ9"
+        ]
+      },
+      {
+        "tag": "hostel",
+        "patterns": [
+          "hostel facility",
+          "hostel servive",
+          "hostel location",
+          "hostel address",
+          "hostel facilities",
+          "hostel fees",
+          "Does college provide hostel",
+          "Is there any hostel",
+          "Where is hostel",
+          "do you have hostel",
+          "do you guys have hostel",
+          "hostel",
+          "hostel capacity",
+          "what is the hostel fee",
+          "how to get in hostel",
+          "what is the hostel address",
+          "how far is hostel from college",
+          "hostel college distance",
+          "where is the hostel",
+          "how big is the hostel",
+          "distance between college and hostel",
+          "distance between hostel and college"
+        ],
+        "responses": [
+          "The college has its own hostel which is situated inside the college campus. For knowing more about the college hostel visit our website https://kmctcoe.ac.in/facility"
+        ]
+      },
+      {
+        "tag": "event",
+        "patterns": [
+          "events organised",
+          "list of events",
+          "list of events organised in college",
+          "list of events conducted in college",
+          "What events are conducted in college",
+          "Are there any event held at college",
+          "Events?",
+          "functions",
+          "what are the events",
+          "tell me about events",
+          "what about events"
+        ],
+        "responses": [
+          "Hello! 😊 Here's a glimpse of the exciting events conducted at our college:  🎨 **Arts Day**: A vibrant celebration of creativity and culture, where students showcase their artistic talents.  🏅 **Sports Events**: From thrilling matches to intense competitions, our sports events bring out the best in teamwork and athleticism.  💻 **Hackathons**: A platform for tech enthusiasts to innovate, collaborate, and create cutting-edge solutions.  🌟 **Annual Tech-Fest - KARMA**:  - **Autoshow**: Experience an impressive display of vehicles that leave everyone in awe!  - **Proshow**: A spectacular night featuring performances by renowned artists, including international stars.  These events are the heartbeat of our campus, bringing students together to celebrate, compete, and grow. Let me know if you'd like more details about any specific event! 😊"
+        ]
+      },
+      {
+        "tag": "document",
+        "patterns": [
+          "document to bring",
+          "documents needed for admision",
+          "documents needed at the time of admission",
+          "documents",
+          "needed during admission",
+          "documents required for admision",
+          "documents required at the time of admission",
+          "documents required during admission",
+          "What document are required for admission",
+          "Which document to bring for admission",
+          "documents",
+          "what documents do i need",
+          "what documents do I need for admission",
+          "documents needed"
+        ],
+        "responses": [
+          "To know more about document required visit https://kmctcoe.ac.in/apply"
+        ]
+      },
+      {
+        "tag": "floors",
+        "patterns": [
+          "size of campus",
+          "building size",
+          "How many floors does college have",
+          "floors in college",
+          "how tall is UNI's College of Engineering college building",
+          "floors"
+        ],
+        "responses": [
+          "The College has total 4 floors, and multiple buildings, with parking spaces for students."
+        ]
+      },
+      {
+        "tag": "Placements",
+        "patterns": [
+          "placement statistics",
+          "job opportunities",
+          "career services",
+          "internships",
+          "alumni network"
+        ],
+        "responses": [
+          "Our placement statistics are impressive, with  students being placed in top companies such as TCS, Infosys, and Wipro. Our career services team provides guidance and support including resume building, interview preparation, and job fairs. We also facilitate internships and have a strong alumni network to help students with job placements. To know more about placement information visit https://kmctcoe.ac.in/placement"
+        ]
+      },
+      {
+        "tag": "syllabus",
+        "patterns": [
+          "Syllabus",
+          "what is the syllabus",
+          "syllabus",
+          "timetable",
+          "what is syllabus",
+          "academic calendar",
+          "calendar",
+          "what is the academic calendar",
+          "syllabus",
+          "What is next lecture"
+        ],
+        "responses": [
+          "Timetable provide direct to the students OR To know about syllabus visit https://ktu.edu.in/academics/academic_calendar"
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "is there any library",
+          "library facility",
+          "library facilities",
+          "do you have library",
+          "does the college have library facility",
+          "college library",
+          "where can i get books",
+          "book facility",
+          "Where is library",
+          "Library",
+          "Library information",
+          "Library books information",
+          "Tell me about library",
+          "how many libraries",
+          "facilities provided"
+        ],
+        "responses": [
+          "There is one huge and spacious library.timings are 8am to 6pm.",
+          "To know more about the facilities available at the campus visit https://kmctcoe.ac.in/facility"
+        ]
+      },
+      {
+        "tag": "infrastructure",
+        "patterns": [
+          "how is the infrastructure",
+          "infrastructure",
+          "buildings"
+        ],
+        "responses": [
+          "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection.",
+          "College infrastructure encompasses classrooms, libraries, laboratories, and recreational facilities, all of which are essential for providing a conducive learning environment.",
+          "Our college infrastructure is top-notch, including specialized labs for networking, electronics, and mechanical engineering, ensuring students have access to the latest technology and resources.",
+          "With excellent infrastructure, the college offers a range of facilities, including dedicated labs for robotics, programming, and civil engineering, fostering an innovative learning environment.",
+          "The college's infrastructure is exceptional, with cutting-edge facilities that include a simulation lab for real-world problem-solving, a dedicated innovation hub for startups, and collaborative spaces that encourage teamwork among students from different disciplines."
+        ]
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "food facilities",
+          "canteen facilities",
+          "canteen facility",
+          "is there any canteen",
+          "Is there a cafetaria in college",
+          "Does college have canteen",
+          "canteen",
+          "Food",
+          "Cafetaria"
+        ],
+        "responses": [
+          "Our university has canteen with variety of food available",
+          "The college has excellent food facilities, including a spacious canteen that serves a variety of healthy and delicious meals to cater to diverse dietary preferences.",
+          "Our canteen facilities are designed to provide students with a comfortable dining experience, featuring a range of cuisines, including vegetarian, and non-vegetarian options.",
+          "The canteen is a popular spot on campus, known for its friendly staff and a wide range of food options, from quick snacks to full meals."
+        ]
+      },
+      {
+        "tag": "menu",
+        "patterns": [
+          "food menu",
+          "food in canteen",
+          "Whats there on menu",
+          "what is available in college canteen",
+          "what foods can we get in college canteen",
+          "food variety",
+          "What is there to eat",
+          "Do you have cafeteria",
+          "cafeteria"
+        ],
+        "responses": [
+          "we serve meals, biriyani, fish, chicken, and eggs.",
+          "The cafeteria at campus is also a famous spot among students."
+        ]
+      },
+      {
+        "tag": "placement",
+        "patterns": [
+          "What is college placement",
+          "Which companies visit in college",
+          "What is average package",
+          "companies visit",
+          "package",
+          "About placement",
+          "placement",
+          "recruitment",
+          "companies"
+        ],
+        "responses": [
+          "Our placement statistics are impressive, with 90% of students placed in top companies such as TCS, Infosys, and Wipro. Our career services team provides guidance and support including resume building, interview preparation, and job fairs. We also facilitate internships and have a strong alumni network to help students with job placements. To know about placement visit https://kmctcoe.ac.in/placement"
+        ]
+      },
+      {
+        "tag": "hod",
+        "patterns": [
+          "Who is HOD",
+          "Where is HOD",
+          "it hod",
+          "name of hod",
+          "faculty",
+          "teachers",
+          "hod"
+        ],
+        "responses": [
+          "Each department have their own Head of Departments (HOD). To know more about them visit out website https://kmctcoe.ac.in/department/computer-science-amp-engineering"
+        ]
+      },
+      {
+        "tag": "principal",
+        "patterns": [
+          "what is the name of principal",
+          "what is the principal name",
+          "principal name",
+          "Who is college principal",
+          "Where is principal's office",
+          "principal",
+          "name of principal"
+        ],
+        "responses": [
+          "Dr Sabiq PV is the college principal and if you need any help then call your branch hod first. That would be more appropriate."
+        ]
+      },
+      {
+        "tag": "sem",
+        "patterns": [
+          "exam dates",
+          "exam schedule",
+          "When is semester exam",
+          "Semester exam timetable",
+          "sem",
+          "semester",
+          "exam",
+          "when is exam",
+          "exam timetable",
+          "exam dates",
+          "when is semester"
+        ],
+        "responses": [
+          "Exams are conducted as per the university schedule. Let me know if you need details about dates or patterns. Here is the Academic Calendar https://ktu.edu.in/academics/academic_calendar",
+          "Exam schedules are usually announced in advance. I can help you find the latest updates for KMCT exams. Here is the Academic Calendar https://ktu.edu.in/academics/academic_calendar."
+        ]
+      },
+      {
+        "tag": "admission",
+        "patterns": [
+          "what is the process of admission",
+          "what is the admission process",
+          "How to take admission in your college",
+          "What is the process for admission",
+          "admission",
+          "admission process"
+        ],
+        "responses": [
+          "Application can also be submitted online through the University's website https://kmctcoe.ac.in/apply"
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+          "scholarship",
+          "Is scholarship available",
+          "scholarship engineering",
+          "scholarship it",
+          "scholarship ce",
+          "scholarship mechanical",
+          "scholarship civil",
+          "scholarship chemical",
+          "scholarship for AI/ML",
+          "available scholarships",
+          "scholarship for computer engineering",
+          "scholarship for IT engineering",
+          "scholarship for mechanical engineering",
+          "scholarship for civil engineering",
+          "scholarship for chemical engineering",
+          "list of scholarship",
+          "comps scholarship",
+          "IT scholarship",
+          "mechanical scholarship",
+          "civil scholarship",
+          "chemical scholarship",
+          "automobile scholarship",
+          "first year scholarship",
+          "second year scholarship",
+          "third year scholarship",
+          "fourth year scholarship"
+        ],
+        "responses": [
+          "These are the scholarships available in our university: Central Sector Scholarship, A scholarship for college and university students from the Ministry of Human Resource Development. It is for students from the General, SC, ST communities and physically handicapped students. Chancellor Merit Cum Means Scholarship. A scholarship that awards freeship and merit-cum-means scholarship for the subsequent years. The percentage of scholarship amount remains constant throughout the course duration. Suvarna Jubilee Merit Scholarship. A scholarship for economically disadvantaged but academically outstanding students in Kerala. CH Muhammed Koya Scholarship. A scholarship for first year degree, PG students, and students admitted to self financing professional colleges under merit quota."
+        ]
+      },
+      {
+        "tag": "facilities",
+        "patterns": [
+          "What facilities college provide",
+          "College facility",
+          "What are college facilities",
+          "facilities",
+          "facilities provided"
+        ],
+        "responses": [
+          "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library, canteen.",
+          "Our college infrastructure is top-notch, including specialized labs for networking, electronics, and mechanical engineering, ensuring students have access to the latest technology and resources.",
+          "With excellent infrastructure, the college offers a range of facilities, including dedicated labs for robotics, programming, and civil engineering, fostering an innovative learning environment.",
+          "The college's infrastructure is exceptional, with cutting-edge facilities that include a simulation lab for real-world problem-solving, a dedicated innovation hub for startups, and collaborative spaces that encourage teamwork among students from different disciplines."
+        ]
+      },
+      {
+        "tag": "college intake",
+        "patterns": [
+          "max number of students",
+          "number of seats per branch",
+          "number of seats in each branch",
+          "maximum number of seats",
+          "maximum students intake",
+          "What is college intake",
+          "how many students are taken in each branch",
+          "seat allotment",
+          "seats"
+        ],
+        "responses": [
+          "For IT and Computer Science and 60 per branch and seat may differ for different department."
+        ]
+      },
+      {
+        "tag": "uniform",
+        "patterns": [
+          "college dress code",
+          "college dresscode",
+          "what is the uniform",
+          "can we wear casuals",
+          "Does college have a uniform",
+          "Is there any uniform",
+          "uniform",
+          "what about uniform",
+          "do we have to wear uniform"
+        ],
+        "responses": [
+          "Each year has their own uniform code regulations."
+        ]
+      },
+      {
+        "tag": "committee",
+        "patterns": [
+          "what are the different committees in college",
+          "different committee in college",
+          "Are there any committees in college",
+          "Give me committee details",
+          "committee",
+          "how many committees are there in college"
+        ],
+        "responses": [
+          "The various active committees available in this college are: IEDC, IEEE, Womens Cell, Anti-Ragging committee, Alumni association, Sports committee, KARMA committee."
+        ]
+      },
+      [
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not programmed for this, please ask an appropriate query"
+            ]
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "Please use appropriate language.",
+                "Maintaining decency would be appreciated."
+            ]
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester start",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "holiday in this year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When are the holidays",
+                "how long will the vacation be?"
+            ],
+            "responses": [
+                "The start and end of holidays are provided in the academic calendar. Here it is: https://ktu.edu.in/academics/academic_calendar"
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "Show my attendance",
+                "What is my attendance?",
+                "Attendance details",
+                "Check my attendance",
+                "Tell me about my attendance",
+                "How many classes have I attended?",
+                "Show my attendance percentage",
+                "How much is my attendance?"
+            ],
+            "responses": [
+                "Please provide your username and password to fetch attendance details."
+            ]
+        },
+        {
+            "tag": "assignment",
+            "patterns": [
+                "Show my assignments",
+                "What are my assignments?",
+                "Assignment details",
+                "Check my assignments",
+                "Tell me about my assignments",
+                "What assignments do I have pending?"
+            ],
+            "responses": [
+                "Please provide your username and password to fetch assignment details."
+            ]
+        },
+        {
+            "tag": "sessional exam",
+            "patterns": [
+                "session test",
+                "when is my session exam?",
+                "session exam schedule"
+            ],
+            "responses": [
+                "Please provide your username and password to fetch sessional exam details."
+            ]
+        },
+        {
+            "tag": "module test",
+            "patterns": [
+                "module test",
+                "when is my module test?",
+                "module test schedule"
+            ],
+            "responses": [
+                "Please provide your username and password to fetch module test details."
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our university encourages all-round development of students and hence provides sports facilities on the campus. For more details visit https://kmctcoe.ac.in/sports-facility",
+                "Students are encouraged to take active participation in sports and games. A very large playground for playing football, cricket, and volleyball is available on campus. Besides these, badminton courts are also available on campus."
+            ]
+        },
+        {
+            "tag": "salutation",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you.",
+                "You're welcome! Anything else I can assist you with?"
+            ]
+        }
+    ],
+      {
+        "tag": "task",
+        "patterns": [
+          "what can you do",
+          "what are the things you can do",
+          "things you can do",
+          "what can you do for me",
+          "how can you help me",
+          "why should I use you",
+          "what is your purpose",
+          "what can you do for me",
+          "what are your capabilites"
+        ],
+        "responses": [
+          "I can answer low-intermediate questions regarding college",
+          "You can ask me questions regarding college, and I will try to answer them",
+          "I can answer your questions about admissions, courses, facilities, and much more. 😊",
+          "You can consider me as a tool to help get your way through college.",
+          "I'm here to help you learn about KMCT, whether you're a prospective student or just curious. Ask away! 😉"
+        ]
+      },
+      {
+        "tag": "karma",
+        "patterns": [
+          "what is karma",
+          "karma",
+          "what happens at karma",
+          "tell me about karma",
+          "festival",
+          "festivals",
+          "tech fest",
+          "programmes",
+          "what are the festivals at the college",
+          "what are the fests at the college",
+          "what are the events at college",
+          "annual fest"
+        ],
+        "responses": [
+          "Hello! 😊 Let me tell you about our grand annual tech-fest, KARMA – a three-day extravaganza filled with excitement and innovation!  📅 Day 1:  - The festival kicks off with games, hackathons, and other engaging activities.  - The official inauguration ceremony is conducted by a famous personality.  - Following the inauguration, students light up the stage with vibrant dances, soulful songs, and other performances.  📅 Day 2:  - A day packed with student performances, including stunning fashion shows.  - The evening is made magical with musical performances by renowned artists.  📅 Day 3:  - The final day begins with a spectacular autoshow, showcasing a variety of cars and bikes.  - The festival concludes with a thrilling techno party at night, featuring an electrifying performance by a renowned DJ.  KARMA is not just a tech-fest; it's an unforgettable celebration of talent, innovation, and fun. Let me know if you'd like more details or assistance regarding the event! 😊."
+        ]
+      },
+      {
+        "tag": "ragging",
+        "patterns": [
+          "ragging",
+          "is ragging practice active in college",
+          "does college have any anti-ragging facility",
+          "are there any ragging cases",
+          "is ragging done here",
+          "ragging against",
+          "anti-ragging facility",
+          "ragging juniors",
+          "ragging history",
+          "ragging incidents"
+        ],
+        "responses": [
+          "We are proud to tell you that our college provides a ragging-free environment, and we have strict rules against ragging. Also we provide an Anti-Ragging committee."
+        ]
+      },
+      {
+        "tag": "hod",
+        "patterns": [
+          "hod",
+          "hod name",
+          "who is the hod"
+        ],
+        "responses": [
+          "Each department have their own Head of Departments (HOD). To know more about them visit out website https://kmctcoe.ac.in/department/computer-science-amp-engineering"
+        ]
+      },
+      {
+        "tag": "Campus Safety",
+        "patterns": [
+          "safety protocols",
+          "emergency alerts",
+          "campus security",
+          "safety training",
+          "crime prevention"
+        ],
+        "responses": [
+          "Campus safety is a priority with established safety protocols and emergency alerts. Campus security personnel are available around the clock. Safety training sessions are conducted regularly, and crime prevention measures are in place to ensure a secure environment."
+        ]
+      },
+      {
+        "tag": "Academic Support",
+        "patterns": [
+          "academic advising",
+          "tutoring",
+          "study skills",
+          "academic workshops",
+          "learning resources"
+        ],
+        "responses": [
+          "Academic support services include academic advising, tutoring, and workshops to enhance study skills. Learning resources are available to help with coursework and research. Please contact the academic support center for personalized assistance."
+        ]
+      },
+      {
+        "tag": "Notes",
+        "patterns": [
+          "can you give me the notes",
+          "notes",
+          "tutorials"
+        ],
+        "responses": [
+          "https://www.ktunotes.in/ktu-btech-2019-syllabus/"
+        ]
+      },
+      {
+        "tag": "Student Organizations",
+        "patterns": [
+          "clubs and societies",
+          "student government",
+          "professional organizations",
+          "cultural clubs",
+          "interest groups"
+        ],
+        "responses": [
+          "There are numerous student organizations on campus, including clubs and societies related to various interests, student government, professional organizations, cultural clubs, and interest groups. These organizations provide opportunities for leadership, collaboration, and personal growth. Organizations including IEDC, IEEE, prevail in the college. Hackathons and coding challenges are also often conducted at the campus."
+        ]
+      },
+      {
+        "tag": "Local Area",
+        "patterns": [
+          "local attractions",
+          "restaurants",
+          "shopping areas",
+          "transport options",
+          "local events"
+        ],
+        "responses": [
+          "The local area has many attractions including popular restaurants, shopping areas, and cultural sites. Public transportation options are available, and local events offer additional opportunities for exploration and engagement. For more information, consult our local area guide."
+        ]
+      },
+      {
+        "tag": "Emergency Procedures",
+        "patterns": [
+          "emergency protocols",
+          "fire drills",
+          "evacuation plans",
+          "emergency contacts",
+          "safety procedures"
+        ],
+        "responses": [
+          "Emergency procedures include fire drills, evacuation plans, and safety protocols designed to keep everyone safe. Emergency contacts are provided during orientation, and detailed safety procedures are outlined in the student handbook. Ensure you are familiar with these procedures for your safety."
+        ]
+      }
+    ]
+  }
