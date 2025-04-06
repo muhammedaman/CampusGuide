@@ -31,7 +31,7 @@ def fetch_etlab_data(username, password):
             driver.quit()
             return {"error": "Invalid username or password"}
 
-        data = {"attendance": [], "assignments": [], "sessional_exams": [], "module_tests": []}
+        data = {"attendance": [], "assignments": [], "sessional_exams": [], "module_tests": [],  "internal_marks": []}
 
         # ✅ Fetch Attendance Data
         try:
@@ -60,14 +60,14 @@ def fetch_etlab_data(username, password):
         # ✅ Fetch Sessional Exams Data
         try:
             driver.get("https://kmctce.etlab.app/ktuacademics/student/results")
-            time.sleep(3)
+            time.sleep(5)
             sessional_table = driver.find_element(By.ID, "yw0")
             headers = [th.text.strip() for th in sessional_table.find_elements(By.TAG_NAME, "th")]
             rows = [[td.text.strip() for td in tr.find_elements(By.TAG_NAME, "td")] for tr in sessional_table.find_elements(By.TAG_NAME, "tr")[1:]]
             data["sessional_exams"] = pd.DataFrame(rows, columns=headers).to_dict(orient="records")
         except Exception as e:
-            print("Error fetching sessional exams:", str(e))
             data["sessional_exams"] = []
+            print("Error fetching sessional exams:", e)
 
         # ✅ Fetch Module Test Data
         try:
@@ -78,6 +78,16 @@ def fetch_etlab_data(username, password):
         except Exception as e:
             print("Error fetching module tests:", str(e))
             data["module_tests"] = []
+
+        try:
+            internal_marks_table = driver.find_element(By.ID, "yw5")  
+            headers = [th.text.strip() for th in internal_marks_table.find_elements(By.TAG_NAME, "th")]
+            rows = [[td.text.strip() for td in tr.find_elements(By.TAG_NAME, "td")] for tr in internal_marks_table.find_elements(By.TAG_NAME, "tr")[1:]]
+            data["internal_marks"] = pd.DataFrame(rows, columns=headers).to_dict(orient="records")
+        except Exception as e:
+            data["internal_marks"] = []
+            print("Error fetching internal marks:", e)
+
 
     except Exception as e:
         print("Unexpected error:", str(e))
