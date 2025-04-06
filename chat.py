@@ -5,7 +5,7 @@ import random
 import google.generativeai as genai
 from attendance import fetch_etlab_data
 
-genai.configure(api_key="AIzaSyCKvQgOtoHrI-5MLYJybmMBbilSEaG45-A")
+genai.configure(api_key="YOUR API KEY HERE")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
